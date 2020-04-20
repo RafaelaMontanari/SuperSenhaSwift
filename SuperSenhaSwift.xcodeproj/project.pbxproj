@@ -13,6 +13,9 @@
 		84584FE7244693A70008BEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84584FE5244693A70008BEFE /* Main.storyboard */; };
 		84584FE9244693A90008BEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84584FE8244693A90008BEFE /* Assets.xcassets */; };
 		84584FEC244693A90008BEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84584FEA244693A90008BEFE /* LaunchScreen.storyboard */; };
+		84736B3A244A925500E8B3F5 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736B39244A925500E8B3F5 /* PasswordsViewController.swift */; };
+		84736B3C244A968F00E8B3F5 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736B3B244A968F00E8B3F5 /* SecurityTipsViewController.swift */; };
+		84CBC3C9244CD2A70053DC85 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CBC3C8244CD2A70053DC85 /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		84584FE8244693A90008BEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84584FEB244693A90008BEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84584FED244693A90008BEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84736B39244A925500E8B3F5 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		84736B3B244A968F00E8B3F5 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		84CBC3C8244CD2A70053DC85 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				84584FE1244693A70008BEFE /* SceneDelegate.swift */,
 				84584FE3244693A70008BEFE /* ViewController.swift */,
 				84584FE5244693A70008BEFE /* Main.storyboard */,
+				84CBC3C8244CD2A70053DC85 /* PasswordGenerator.swift */,
+				84736B3B244A968F00E8B3F5 /* SecurityTipsViewController.swift */,
+				84736B39244A925500E8B3F5 /* PasswordsViewController.swift */,
 				84584FE8244693A90008BEFE /* Assets.xcassets */,
 				84584FEA244693A90008BEFE /* LaunchScreen.storyboard */,
 				84584FED244693A90008BEFE /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84584FE4244693A70008BEFE /* ViewController.swift in Sources */,
+				84736B3A244A925500E8B3F5 /* PasswordsViewController.swift in Sources */,
+				84CBC3C9244CD2A70053DC85 /* PasswordGenerator.swift in Sources */,
 				84584FE0244693A70008BEFE /* AppDelegate.swift in Sources */,
 				84584FE2244693A70008BEFE /* SceneDelegate.swift in Sources */,
+				84736B3C244A968F00E8B3F5 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
